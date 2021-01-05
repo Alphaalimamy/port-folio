@@ -1,0 +1,378 @@
+
+#home {
+    background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1015&q=80");
+    width: 100%;
+    min-height: 300px;
+    box-shadow: 3px 3px 5px #193829;
+    background-size: cover;
+}
+.black-back {
+    background-color: #058394;
+    width: 100%;
+    min-height: 280px;
+    box-shadow: 3px black;
+    padding-top: 10px;
+}
+.grey-back {
+    background-color: #058394;
+    width: 100%;
+    min-height: 50px;
+    box-shadow: 1px 3px 10px black;
+    padding-top: 10px;
+}
+footer {
+    background-color: #02878b;
+    width: 100%;
+    padding: 40px;
+    color: #fff;
+    font: 50px;
+    text-align: center;
+}
+nav {
+    background-color: #a00380;
+    box-shadow: 3px  3px 3px black;
+}
+.navbar-nav{
+    background-color:#a00380 ;
+}
+.main {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+/*==================Section Styling==================*/
+/*about section*/
+.about-image {
+    padding-bottom: 30px;
+    border-radius: 50px;
+}
+
+.about-image{
+    transition: all 1s;
+}
+.about-image:hover{
+    transform: scale(1.1);
+}
+.skills-1 {
+    background-color: #343B3C;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    outline: none;
+    box-shadow: 3px 2px 3px black;
+    transition: all 1s;
+}
+.skills-1:hover{
+    transform: scale(1.1);
+}
+.skills-inner {
+    text-align: justify;
+    font-size: 5px;
+    font-style: oblique;
+
+}
+/*resume section*/
+.experience {
+    background-color: #511D47;
+    padding: 24px;
+    border: none;
+    border-radius: 1px;
+    outline: none;
+    min-height: 100px;
+    margin-bottom: 30px;
+    box-shadow: 3px 2px 3px black;
+    font-size: 10pt;
+}
+.employment {
+    margin-bottom: 60px;
+    color: whitesmoke;
+}
+.education {
+    margin-bottom: 60px;
+    color: white;
+}
+/*Contact Me Section*/
+
+.form-control {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .4);
+    outline: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.textarea {
+    overflow: auto;
+    resize: vertical;
+    box-sizing: border-box;
+    text-rendering: auto;
+    text-align: start;
+}
+.contact-box {
+    position: relative;
+    text-align: center;
+    padding: 10px 5px 5px;
+    margin-bottom: 17.5px;
+    background-color: #1E2425;
+    color: #fff;
+    box-sizing: border-box;
+    display: block;
+}
+.icon-box {
+    background-color: #e2ae1e;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+}
+#linkedIn{
+max-height: 700px;
+}
+.linkedIn{
+    text-decoration: none;
+    font-size: larger;
+}
+/*========Save Button*/
+#contact{
+    color: brown;
+    font-style: oblique;
+}
+*.icon-envelope, *.icon-phone{
+    width: 50%;
+    height: 50%;
+    color: rgba(255, 0, 212, 0.507);
+}
+.resume-icon {
+    background-color: #FFCB3A;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+}
+.skills-2 {
+    display: none;
+    background-color: #343B3C;
+    padding: 24px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    box-shadow: 3px 2px 3px black;
+}
+.skills-3 {
+    background-color: #343B3C;
+    padding: 24px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    box-shadow: 3px 2px 3px black;
+}
+/*==================Text Styling==================*/
+h1 {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+h3 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 30pt;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: solid #FFCB3A;
+}
+h4 {
+    font-size: 16pt;
+    color: #FFCB3A;
+}
+h5 {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+h6 {
+    font-size: 14pt;
+    font-weight: bold;
+}
+h7 {
+    font-size: 14pt;
+}
+h8 {
+    font-size: 12pt;
+    font-style: italic;
+}
+h9 {
+    color: #058394;
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+}
+.experience-details {
+    text-align: right;
+}
+
+#bio {
+    margin-bottom: 30px;
+    color: white;
+    transition: all 1s;
+}
+
+#bio:hover{
+    transform: scale(1.1);
+}
+
+#rnpo {
+    margin-bottom: 30px;
+    color: white;
+    transition: all 1s;
+}
+
+#rnpo:hover{
+    transform: scale(1.1);
+}
+
+#intership {
+    margin-bottom: 30px;
+    color: white;
+    transition: all 1s;
+}
+
+#intership:hover{
+    transform: scale(1.1);
+}
+
+#teacher {
+    margin-bottom: 30px;
+    color: white;
+    transition: all 1s;
+}
+
+#teacher:hover{
+    transform: scale(1.1);
+}
+
+#lecturer {
+    margin-bottom: 30px;
+    color: white;
+    transition: all 1s;
+}
+
+#lecturer:hover{
+    transform: scale(1.1);
+}
+
+#masters {
+    margin-bottom: 30px;
+    color: white;
+    transition: all 1s;
+}
+
+#masters:hover{
+    transform: scale(1.1);
+}
+
+#fbc {
+    margin-bottom: 30px;
+    color: white;
+    transition: all 1s;
+}
+
+#fbc:hover{
+    transform: scale(1.1);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.main-btn {
+    background: #baff3a;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+    min-width: 155px;
+    padding: 14px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+/*==================Modal styling==================*/
+.item-title {
+    color: #fff;
+    background-color: #511D47;    
+    box-shadow: 3px 2px 3px black;
+}
+.portfolio-modal {
+    cursor: pointer;
+}
+.portfolio-img {
+    box-shadow: 3px 0px 3px black;
+    width: 100%;
+}
+#modal-button {
+    color: #fff;
+    background-color: #FF4F61;
+    font-size: 14pt;
+}
+.modal-body {
+    color: black;
+}
+.project-link {
+    background-color: #FFCB3A;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*==================Manual Media Queries==================*/
+@media screen and (max-width: 980px) {
+    h4 {
+        font-size: 11pt;
+    }
+    .skills-1 {
+        padding: 10px;
+        padding-right: 30px;
+    }
+    .skills-inner {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .skills-1 {
+        display: none;
+    }
+    .skills-2 {
+        display: inherit;
+
+    }
+   
+}
+
+
+
